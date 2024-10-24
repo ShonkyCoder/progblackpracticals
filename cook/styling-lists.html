@@ -27,13 +27,14 @@
       /* Unordered list styles */
 
       ul {
-        padding: 10px;
+        padding-left: 2rem;
         list-style-type: none;
       }
 
       ul li {
+        padding-left: 2rem;
         background-image: url(star.png);
-        background-position: 0 0;
+        background-position: left;
         background-size: 1.6rem 1.6rem;
         background-repeat: no-repeat;
       }
@@ -54,16 +55,31 @@
         font-weight: bold;
       }
 
+      #shopping, #recipe, #ingredient {
+        border-width: 20px;
+        border-color: black;
+        border-style: groove;
+        padding-left: 10px;
+        padding-top: 5px;
+      }
+
       #shopping {
+        float: left;
+        width: 200px;
         background-color: aqua;
-        padding: 10px;
+        position: 100 100;
+
       }
 
       #recipe {
+        margin-left: 300px;
+        width: 600px;
         background-color: darkcyan;
       }
 
       #ingredient {
+        
+        width: 900px;
         background-color: darkolivegreen;
       }
     </style>
